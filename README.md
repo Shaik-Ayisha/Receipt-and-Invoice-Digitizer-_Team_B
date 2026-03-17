@@ -98,7 +98,7 @@ receipt-invoice-digitizer
 # ▶️ Installation and Setup
 
 ### 1️⃣ Clone the Repository
-
+```
 ```bash
 git clone <your-repository-link>
 cd receipt-invoice-digitizer
@@ -191,4 +191,3 @@ We would like to thank **Infosys Springboard** for providing this internship opp
 * **Duration:** 8 Weeks
 
 
-If you want, I can also give you a **much better GitHub README (with badges, screenshots section, and professional formatting)** so that your project looks **more impressive for recruiters and GitHub profile.**
