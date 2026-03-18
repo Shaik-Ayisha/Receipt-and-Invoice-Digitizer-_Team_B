@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-container {
+  display: flex;
+  gap: 30px; 
+  padding: 20px;
+
+}
+
+/* Sidebar */
+.sidebar {
+  width: 230px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.logo {
+  color: #2563eb;
+  margin-bottom: 30px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 12px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.sidebar li:hover,
+.sidebar .active {
+  background-color: #e8efff;
+  color: #2563eb;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Home {
+  background-color: #2563eb;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 50%;
+}
+
+/* Cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  font-size: 14px;
+  color: #555;
+}
+
+.card p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Upload Section */
+.upload-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.upload-box {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px dashed #c7d2fe;
+}
+
+.upload-box button {
+  margin-top: 10px;
+  padding: 10px 16px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Recent Docs */
+.recent-docs {
+background-color: #ffffff;
+padding: 25px;
+border-radius: 12px;
+margin-top: 30px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+
+
+.recent-docs table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.recent-docs th,
+.recent-docs td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+/* HOW IT WORKS SECTION */
+
+.how-it-works {
+  margin-top: 60px;
+  padding: 40px 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+.how-it-works h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.steps-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 25px;
+  margin-top: 30px;
+
+}
+
+.step-card {
+  flex: 1;
+  background: white;
+  padding: 25px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.step-card:hover {
+  transform: translateY(-5px);
+}
+
+
+.step-circle {
+  width: 45px;
+  height: 45px;
+  background: #4f46e5;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px auto;
+  font-weight: bold;
+}
+
+
+.step-card h4 {
+  margin-bottom: 10px;
+}
+
+.step-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.welcome-text h1 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.welcome-text p {
+  color: #666;
+  font-size: 14px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
